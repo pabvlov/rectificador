@@ -111,7 +111,7 @@ h2 {
     min-height: 180px !important;
 }
 
-a.btn-red {
+.btn-red {
     width: 100%;
     text-align: center;
     background-color: red;
@@ -120,7 +120,7 @@ a.btn-red {
     margin-bottom: 30px;
 }
 
-.active {
+.activo {
     background-color: red;
 }
 

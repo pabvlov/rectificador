@@ -29,6 +29,8 @@
                     
                 <div class="col-lg-3 col-sm-12 text-center"><img src="../assets/img/germanflag2.png" alt="Bandera Alemana Dynastat" class="bandera imgcentrado img-fluid"></div>
             </div>
+
+
             <div class="navigation">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
@@ -40,43 +42,67 @@
                     <li class="nav-item">
                       <a class="nav-link" href="/dynastat/">Máquinas</a>
                     </li>
-                    <li class="nav-item activo">
+                    <li class="nav-item">
                         <a class="nav-link" href="/nosotros/">Sobre nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contacto/">Contacto</a>
+                        <a class="nav-link activo" href="/contacto/">Contacto</a>
                     </li>
                   </ul>
             </div>
         </section>
 
 
-        <section class="body">
+        <section class="body">            
             <div class="row">
-                <div class="col-lg-12 textzone">
-                    <p class="justified">
-                        Rectificado Disco de Freno Limitada, con nombre de fantasía “El Rectificador”, es una empresa familiar del rubro automotriz, 
-                        creada principalmente para lograr solucionar los problemas a los clientes y los talleres mecánicos y poder prestar un servicio 
-                        de rectificado de disco en el mismo lugar donde es requerido el servicio, ya sea domicilio o lugar de trabajo, teniendo muy buena 
-                        aceptación por parte de los clientes y buena evaluación que nos hizo continuar adelante perfeccionando la técnica y disminuyendo 
-                        los tiempo del trabajo. <br><br>
-                        Con lo anterior, los clientes particulares no deben hacer largas filas en los talleres mecánicos y el vehículo que listo para usar 
-                        entre 60-90 minutos, donde a petición de ellos mismos hemos agregado el servicio de instalación de pastillas, venta de pastillas y 
-                        limpieza de componentes. En cuanto a los talleres mecánicos, disminuyen el tiempo que el vehículo esta en el taller, logran disminuir los 
-                        tiempos muertos, no tienen que disponer de una persona que vaya a dejar los discos y después ir a buscar, entre otros beneficios. <br><br>
-                        A medida que paso el tiempo, quisimos incursionar en la venta de maquinaria única en Chile de calidad y origen 100% alemán, para ayudar 
-                        a los talleres mecánicos y así no tengan que externalizar el servicio en otros lugares, dejando a su disposición desde Arica a 
-                        Punta Arenas.
-                    </p>
+                <div class="col-xl-8">
+                    <div class="card card2">
+                        <div class="card-body">
+                            <h5 class="card-title">Contáctanos</h5>
+                            <form id="contactForm" action="mailto:pablojavierprietocepeda@gmail.com?subject=Contacto desde página El Rectificador" method="GET" enctype="text/plain">
 
-                    <div class="duenios">
-                        <p>Daniel Prieto Cepeda, <br>Gerente Propietario</p>
-                        <p>Isabel Cepeda Pinto, <br>Representante Legal</p>
+                                <!-- Name input -->
+                                <div class="mb-3">
+                                  <label class="form-label" for="nombre">Nombre</label>
+                                  <input class="form-control" id="nombre" type="text" placeholder="Nombre" data-sb-validations="required" />
+                                </div>
+                            
+                                <!-- Email address input -->
+                                <div class="mb-3">
+                                  <label class="form-label" for="email">Email</label>
+                                  <input class="form-control" name="email" id="email" type="email" placeholder="tuemail@gmail.com" data-sb-validations="required, email" />
+                                </div>
+                            
+                                <!-- Message input -->
+                                <div class="mb-3">
+                                  <label class="form-label" for="body">Mensaje</label>
+                                  <textarea class="form-control" name="body"  id="body" type="text" placeholder="Escribe el mensaje aquí" style="height: 7rem;" data-sb-validations="required"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-red">Enviar</button>
+                              </form>
+                          </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-xl-4">
+                    <div class="card card2">
+                        <div class="card-body">
+                          <h5 class="card-title">Contáctanos</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Para rectificado a domicilio</h6>
+                          <p class="card-text">
+                              
+                            <div class="rrss"><i class="fa-brands fa-whatsapp wsp2"></i> +56 9 7856 9972</div>
+                            <div class="rrss"><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/rectifica.tudisco.7">Click aquí</a></div>
+                            <div class="rrss"><i class="fa-solid fa-envelope"></i> ventas@elrectificador.cl</div>
+                            <div class="rrss"><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/el_rectificador/">@elrectificador</a></div>
 
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </section>
+
 
         <section class="brands">
             <div class="title text-center">
@@ -130,6 +156,6 @@
     <a id="whatsapp" href="https://api.whatsapp.com/send?phone=+56999411488">
         <i class="fa-brands fa-whatsapp verde"></i>
     </a>
+
 </body>
 </html>
-
