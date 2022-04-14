@@ -1,0 +1,234 @@
+body {
+    /* background-color: rgb(94, 94, 94); */
+    background: url(./img/dc-motor-brake.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+.head {
+    height: 200px;
+}
+
+h1 {
+    padding: 30px 0 10px 0;
+    color: white;
+}
+
+.dynastat {
+    display: flex;
+    justify-content: center;
+}
+
+.logodynastat {
+    padding: 10px 0 10px 0;
+}
+
+.bandera {
+    padding: 7px 0;
+}
+
+div.container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+}
+
+a.fondo {
+    background: url(./img/fse380ct.jpg);
+}
+
+section.header {
+    border-bottom: 2px solid red;
+}
+
+.body {
+    padding: 30px;
+}
+
+.card {
+    color: white;
+    background-color: black;
+    border: 0;
+    min-height: 270px;
+    margin-bottom: 30px;
+}
+
+.card-title, .card-subtitle {
+    color: red;
+}
+
+.btn-grande {
+    min-height: 270px;
+    background: url(./img/fse380ct.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    transition: .2s ease;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.negrito {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    min-height: 270px;
+    padding: 95px 30px;
+}
+
+.btn-grande:hover {
+    color: white;
+    -webkit-box-shadow: 5px 5px 15px 5px #444444; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+h2 {
+    color: red;
+}
+
+.marca {
+    position: relative;
+    margin: auto;
+}
+
+.card2 {
+    min-height: 150px !important;
+}
+
+.card3 {
+    min-height: 252px;
+}
+
+.chica {
+    min-height: 180px !important;
+}
+
+a.btn-red {
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white !important;
+    font-weight: 700 !important;
+    margin-bottom: 30px;
+}
+
+.active {
+    background-color: red;
+}
+
+.valor {
+    color: green;
+    font-weight: 800;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.verde {
+    color: rgb(0, 199, 0);
+    font-weight: 800;
+}
+
+.whatsapp {
+    background-color: green;
+    width: 100%;
+    min-height: 90px;
+    padding: 10px;
+}
+
+.fa-whatsapp {
+    font-size: 60px;
+}
+
+body {
+    position: relative;
+}
+ 
+#whatsapp {
+    z-index: 9999;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+div.chiko {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.text-muted {
+    color: white !important;
+}
+
+.xd {
+    position: relative;
+    margin: auto;
+}
+
+.xd2 {
+    margin-top: 40px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.wsp2 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.imgcentrado {
+    max-width: 200px;
+    margin: 50px 0;
+}
+
+.f-right {
+    text-align: right;
+}
+
+p {
+    margin: 0;
+    color: white;
+}
+
+.footer {
+    margin: 10px 0 0 0;
+}
+
+.container {
+    padding: 10px 10px;
+}
+
+.redir {
+    font-weight: 800;
+}
+
+.justified {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.duenios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.textzone {
+    max-width: 800px;
+    margin: auto;
+}
