@@ -232,3 +232,32 @@ p {
     max-width: 800px;
     margin: auto;
 }
+
+.carousel, .d-block {
+    height: 500px;
+    max-width: 500px;
+    margin: auto;
+    /* object-fit: contain; */
+    object-fit: cover;
+    /* object-fit: fill; */
+    /* object-fit: scale-down; */
+    margin-bottom: 4rem;
+
+}
+
+.indicador {
+    border: 2px solid black !important;
+    background-color: red !important;
+    border-radius: 20px;
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    opacity: 1 !important;
+    transition: opacity 1 ease!important;
+}
+
+button.active {
+    transform: scale(1.25);
+}
